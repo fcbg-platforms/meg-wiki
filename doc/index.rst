@@ -7,6 +7,12 @@
 
 .. toctree::
     :hidden:
+    :caption: Status
+
+    status/meg-status.rst
+
+.. toctree::
+    :hidden:
     :caption: General
 
     meg-session.rst
