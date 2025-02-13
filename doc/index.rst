@@ -99,8 +99,7 @@ requested. Alternatively, you can contact directly one of the facility members:
 
 - Gwenael Birot (manager): gwenael.birot@fcbg.ch
 - Jonathan Marquis (technologist): jonathan.marquis@fcbg.ch
-- Mathieu Scheltienne (engineer): mathieu.scheltienne@fcbg.ch
-- Nathalie Philippe (technologist): nathalie.philippe@fcbg.ch
+- Victor Férat (engineer): victor.ferat@fcbg.ch
 - Vincent Rochas (scientist): vincent.rochas@fcbg.ch
 
 |
