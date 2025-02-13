@@ -88,14 +88,13 @@ brain activity in upright or supine position.
 Where to find us
 ----------------
 
-The MEEG-BCI facility is located in ``H4.01``. The main entry is in front of the
+The M/EEG & neuromod platform is located in ``H4.01``. The main entry is in front of the
 Time-out shop. Access to ``H4.01`` is restricted and requires a valid badge.
 
 Contact us
 ----------
 
-The facility can be contacted on meg@fcbg.ch and eeg@fcbg.ch depending on the modality
-requested. Alternatively, you can contact directly one of the facility members:
+The MEG facility can be contacted on meg@fcbg.ch. Alternatively, you can contact directly one of the staff members:
 
 - Gwenael Birot (manager): gwenael.birot@fcbg.ch
 - Jonathan Marquis (technologist): jonathan.marquis@fcbg.ch
@@ -108,5 +107,5 @@ Booking the MEG
 ---------------
 
 The MEG can be booked on `Campus Biotech Calpendo <calpendo_>`_ through the researcher
-individual account used for all FCBG facilities equipment. Only approved projects can
-book the MEG. Please contact the facility team if you need access to `Calpendo`_.
+individual account used for all FCBG platforms equipment. Only approved projects can
+book the MEG. Please contact the platform team if you need access to `Calpendo`_.
