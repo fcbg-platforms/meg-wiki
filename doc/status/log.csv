@@ -1,4 +1,5 @@
 status, title, discovery date, end date, link
+:octicon:`clock;1em;sd-text-warning`, Map of permanent bad channels, 2025-02-21, , :issue:`66`
 :octicon:`clock;1em;sd-text-warning`, Sound distortion when using psychtoolbox back-end, 2025-02-19, , :issue:`65`
 :octicon:`clock;1em;sd-text-warning`, Inaccurate MEG sampling frequency, 2025-02-03, , :issue:`64`
 :octicon:`check-circle;1em;sd-text-success`, 117Hz spurious peak, 2025-01-22,  2025-02-05, :issue:`62`
