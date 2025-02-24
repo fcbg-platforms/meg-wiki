@@ -168,3 +168,16 @@ testing setup works best with a pure tone sound at 1 kHz, downloadable below:
 
 Do not forget to increase the sampling rate of the MEG to at least 2 kHz to correctly
 sample the 1 kHz pure tone sound.
+
+In addition, we show below typical delay values when using Psychtoolbox on Matlab. We
+tested two priority levels: 1 and 3, and two sound device sampling rates: 44100Hz and
+48000Hz.
+
++----------+------------------------------+------------------------------+
+|          | .. centered:: Priority 1     | .. centered:: Priority 1     |
++----------+------------------------------+------------------------------+
+| 44100Hz  | .. centered:: 80.5 ± 3.3 ms  | .. centered:: 43.3 ± 1.8 ms  |
++----------+------------------------------+------------------------------+
+| 48000Hz  | .. centered:: 75.1 ± 3.3 ms  | .. centered:: 38.3 ± 0.9 ms  |
++----------+------------------------------+------------------------------+
+
