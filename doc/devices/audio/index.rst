@@ -174,7 +174,7 @@ tested two priority levels: 1 and 3, and two sound device sampling rates: 44100H
 48000Hz.
 
 +----------+------------------------------+------------------------------+
-|          | .. centered:: Priority 1     | .. centered:: Priority 1     |
+|          | .. centered:: Priority 1     | .. centered:: Priority 3     |
 +----------+------------------------------+------------------------------+
 | 44100Hz  | .. centered:: 80.5 ± 3.3 ms  | .. centered:: 43.3 ± 1.8 ms  |
 +----------+------------------------------+------------------------------+
