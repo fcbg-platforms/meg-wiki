@@ -13,8 +13,8 @@ channels.
 
 The platform currently provides:
 
-- `4 button (curve left)`_
-- `8 button bimanual (curved lines)`_
+- `4 button (curve left)`_ (mapped on keyboard's keys 1-4)
+- `8 button bimanual (curved lines)`_ (mapped on keyboard's keys 1-4 and 6-9)
 - `Pneumatic squeeze ball`_
 
 ``1x4`` and ``2x4`` curved response buttons are commonly used. A full list of compatible
