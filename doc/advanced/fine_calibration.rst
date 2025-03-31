@@ -21,7 +21,10 @@ The "default" fine calibration file in the sample dataset:
 
 This default fine calibration file is computed during the annual maintenance of the MEG
 and is stable over time. However, it can also be re-computed from an empty-room
-recoridng.
+recording.
+
+Carfully check you are using the version of the calibration file corresponding to the date
+of your recording. All versions are available `here <https://github.com/fcbg-platforms/meg-wiki-datasets/tree/main/calibration>`_.
 
 Computing the fine calibration
 ------------------------------
