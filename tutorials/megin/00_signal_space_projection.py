@@ -101,13 +101,13 @@ from matplotlib import pyplot as plt
 f, ax = plt.subplots(2, 3, figsize=(6, 6))
 for k, proj in enumerate(projs[0:6]):
     proj.plot_topomap(info, axes=ax[k // 3, k % 3])
-    ax[k // 3, k % 3].set_title(f"PCA-v{k+1}")
+    ax[k // 3, k % 3].set_title(f"PCA-v{k + 1}")
 plt.suptitle("Magnetometers - Wideband PCA")
 
 f, ax = plt.subplots(1, 3, figsize=(6, 6))
 for k, proj in enumerate(projs[6:9]):
     proj.plot_topomap(info, axes=ax[k])
-    ax[k].set_title(f"PCA-v{k+1}")
+    ax[k].set_title(f"PCA-v{k + 1}")
 plt.suptitle("Magnetometers - Narrowband PCA")
 plt.show()
 
@@ -118,13 +118,13 @@ from matplotlib import pyplot as plt
 f, ax = plt.subplots(1, 3, figsize=(6, 6))
 for k, proj in enumerate(projs[9:12]):
     proj.plot_topomap(info, axes=ax[k])
-    ax[k].set_title(f"PCA-v{k+1}")
+    ax[k].set_title(f"PCA-v{k + 1}")
 plt.suptitle("Gradiometers - Wideband PCA")
 
 f, ax = plt.subplots(1, 2, figsize=(6, 6))
 for k, proj in enumerate(projs[12:14]):
     proj.plot_topomap(info, axes=ax[k])
-    ax[k].set_title(f"PCA-v{k+1}")
+    ax[k].set_title(f"PCA-v{k + 1}")
 plt.suptitle("Gradiometers - Narrowband PCA")
 plt.show()
 
