@@ -1,5 +1,5 @@
 status, title, discovery date, end date, link
-:octicon:`clock;1em;sd-text-warning`, Post-maintenance 16.7Hz peak issue, 2025-03-31, , :issue:`68`
+:octicon:`check-circle;1em;sd-text-success`, Post-maintenance 16.7Hz peak issue, 2025-03-31, 2025-04-22, :issue:`68`
 :octicon:`check-circle;1em;sd-text-success`, Replacement of MEG sensors from 24 to 28/03/2025, 2025-03-06,2025-03-31 , :issue:`67`
 :octicon:`clock;1em;sd-text-warning`, Map of permanent bad channels, 2025-02-21, , :issue:`66`
 :octicon:`clock;1em;sd-text-warning`, Sound distortion when using psychtoolbox back-end, 2025-02-19, , :issue:`65`
