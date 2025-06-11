@@ -55,3 +55,14 @@ The documentation can be build from the `meg-wiki/doc` folder with `make` comman
 
 Additional information can be found on the
 [contributing guide](https://meg-wiki.fcbg.ch/contributing.html).
+
+
+## Updating registry
+
+Whenever a change is made to the [meg-wiki-datasets](https://github.com/fcbg-platforms/meg-wiki-datasets),  the `sample-registry.txt` must be updated accordingly:
+
+```python
+from meg_wiki.datasets.sample import _make_registry 
+_make_registry(r"PATH_TO_meg-wiki-datasets")
+```
+
