@@ -23,7 +23,7 @@ This default fine calibration file is computed during the annual maintenance of 
 and is stable over time. However, it can also be re-computed from an empty-room
 recording.
 
-Carfully check you are using the version of the calibration file corresponding to the date
+Carefully check you are using the version of the calibration file corresponding to the date
 of your recording. All versions are available `here <https://github.com/fcbg-platforms/meg-wiki-datasets/tree/main/calibration>`_.
 
 Computing the fine calibration
