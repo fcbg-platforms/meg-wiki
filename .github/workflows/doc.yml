@@ -102,3 +102,4 @@ jobs:
             CNAME
             .nojekyll
             .gitignore
+            pr-preview/
