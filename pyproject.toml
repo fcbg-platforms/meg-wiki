@@ -61,6 +61,7 @@ doc = [
   'furo',
   'matplotlib',
   'memory-profiler',
+  'myst-parser',
   'nibabel',
   'numpydoc',
   'PyQt6',
