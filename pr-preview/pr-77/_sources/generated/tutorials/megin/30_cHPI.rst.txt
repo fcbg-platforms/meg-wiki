@@ -154,45 +154,28 @@ The initial head position can be visualized within the sensor helmet with
 .. code-block:: pytb
 
     Traceback (most recent call last):
-      File "/home/runner/work/meg-wiki/meg-wiki/tutorials/megin/30_cHPI.py", line 78, in <module>
-        subjects_dir = Path(fetch_fsaverage()).parent
-                            ^^^^^^^^^^^^^^^^^
-      File "<decorator-gen-425>", line 12, in fetch_fsaverage
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/datasets/_fsaverage/base.py", line 73, in fetch_fsaverage
-        _manifest_check_download(
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/datasets/utils.py", line 813, in _manifest_check_download
-        pooch.retrieve(
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/pooch/core.py", line 239, in retrieve
-        stream_download(url, full_path, known_hash, downloader, pooch=None)
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/pooch/core.py", line 807, in stream_download
-        downloader(url, tmp, pooch)
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/pooch/downloaders.py", line 220, in __call__
-        response = requests.get(url, timeout=timeout, **kwargs)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/api.py", line 73, in get
-        return request("get", url, params=params, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/api.py", line 59, in request
-        return session.request(method=method, url=url, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
-        resp = self.send(prep, **send_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/sessions.py", line 724, in send
-        history = [resp for resp in gen]
-                  ^^^^^^^^^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/sessions.py", line 724, in <listcomp>
-        history = [resp for resp in gen]
-                  ^^^^^^^^^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/sessions.py", line 265, in resolve_redirects
-        resp = self.send(
-               ^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
-        r = adapter.send(request, **kwargs)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/requests/adapters.py", line 690, in send
-        raise ReadTimeout(e, request=request)
-    requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='files.osf.io', port=443): Read timed out. (read timeout=15)
+      File "/home/runner/work/meg-wiki/meg-wiki/tutorials/megin/30_cHPI.py", line 79, in <module>
+        fig = plot_alignment(
+              ^^^^^^^^^^^^^^^
+      File "<decorator-gen-186>", line 12, in plot_alignment
+      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/_3d.py", line 859, in plot_alignment
+        renderer = _get_renderer(
+                   ^^^^^^^^^^^^^^
+      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 52, in _get_renderer
+        _get_3d_backend()
+      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 181, in _get_3d_backend
+        raise RuntimeError(
+    RuntimeError: Could not load any valid 3D backend
+    pyvistaqt: libEGL.so.1: cannot open shared object file: No such file or directory
+    notebook: No module named 'ipyevents'
+
+     install pyvistaqt, using pip or conda:
+    'pip install pyvistaqt'
+    'conda install -c conda-forge pyvistaqt'
+
+     or install ipywidgets, if using a notebook backend
+    'pip install ipywidgets'
+    'conda install -c conda-forge ipywidgets'
 
 
 
@@ -374,7 +357,7 @@ References
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 16.293 seconds)
+   **Total running time of the script:** (2 minutes 7.724 seconds)
 
 **Estimated memory usage:**  744 MB
 
