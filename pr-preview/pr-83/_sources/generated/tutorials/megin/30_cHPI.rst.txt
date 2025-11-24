@@ -158,12 +158,12 @@ The initial head position can be visualized within the sensor helmet with
         fig = plot_alignment(
               ^^^^^^^^^^^^^^^
       File "<decorator-gen-186>", line 12, in plot_alignment
-      File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/mne/viz/_3d.py", line 859, in plot_alignment
+      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/_3d.py", line 859, in plot_alignment
         renderer = _get_renderer(
                    ^^^^^^^^^^^^^^
-      File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 52, in _get_renderer
+      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 52, in _get_renderer
         _get_3d_backend()
-      File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 181, in _get_3d_backend
+      File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 181, in _get_3d_backend
         raise RuntimeError(
     RuntimeError: Could not load any valid 3D backend
     pyvistaqt: libEGL.so.1: cannot open shared object file: No such file or directory
@@ -357,9 +357,9 @@ References
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 16.492 seconds)
+   **Total running time of the script:** (0 minutes 21.484 seconds)
 
-**Estimated memory usage:**  744 MB
+**Estimated memory usage:**  748 MB
 
 
 .. _sphx_glr_download_generated_tutorials_megin_30_cHPI.py:

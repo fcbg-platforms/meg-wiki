@@ -343,7 +343,7 @@ software on the <a class="reference internal" href="../../../data-analysis-pc.ht
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>The enhanced version available in <a class="reference external" href="https://mne.tools/stable/index.html">MNE-Python</a> is recommended. See
-<a class="reference external" href="https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne.preprocessing.maxwell_filter" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.preprocessing.maxwell_filter()</span></code></a>. The fine calibration file and the
+<a class="reference external" href="https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne.preprocessing.maxwell_filter" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.preprocessing.maxwell_filter()</span></code></a>. The fine calibration file and the
 cross-talk correction are available in the <a class="reference external" href="https://github.com/fcbg-platforms/meg-wiki-datasets/tree/main">sample dataset</a> (
 see <a class="reference internal" href="../../api/meg_wiki.datasets.sample.data_path.html#meg_wiki.datasets.sample.data_path" title="meg_wiki.datasets.sample.data_path"><code class="xref py py-func docutils literal notranslate"><span class="pre">meg_wiki.datasets.sample.data_path()</span></code></a>).</p>
 </div>
@@ -389,7 +389,7 @@ transformation matrix stored in <code class="docutils literal notranslate"><span
 </pre></div>
 </div>
 <p>The initial head position can be visualized within the sensor helmet with
-<a class="reference external" href="https://mne.tools/stable/generated/mne.viz.plot_alignment.html#mne.viz.plot_alignment" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.viz.plot_alignment()</span></code></a>.</p>
+<a class="reference external" href="https://mne.tools/stable/generated/mne.viz.plot_alignment.html#mne.viz.plot_alignment" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.viz.plot_alignment()</span></code></a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The figure below uses fsaverage MRI from <a class="reference external" href="https://mne.tools/stable/index.html">MNE-Python</a>’s dataset,
@@ -415,12 +415,12 @@ the subject’s individual MRI should be used.</p>
 <span class="w">    </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plot_alignment</span><span class="p">(</span>
 <span class="w">          </span><span class="pm">^^^^^^^^^^^^^^^</span>
   File <span class="nb">&quot;&lt;decorator-gen-186&gt;&quot;</span>, line <span class="m">12</span>, in <span class="n">plot_alignment</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/mne/viz/_3d.py&quot;</span>, line <span class="m">859</span>, in <span class="n">plot_alignment</span>
+  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/_3d.py&quot;</span>, line <span class="m">859</span>, in <span class="n">plot_alignment</span>
 <span class="w">    </span><span class="n">renderer</span> <span class="o">=</span> <span class="n">_get_renderer</span><span class="p">(</span>
 <span class="w">               </span><span class="pm">^^^^^^^^^^^^^^</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py&quot;</span>, line <span class="m">52</span>, in <span class="n">_get_renderer</span>
+  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py&quot;</span>, line <span class="m">52</span>, in <span class="n">_get_renderer</span>
 <span class="w">    </span><span class="n">_get_3d_backend</span><span class="p">()</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py&quot;</span>, line <span class="m">181</span>, in <span class="n">_get_3d_backend</span>
+  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py&quot;</span>, line <span class="m">181</span>, in <span class="n">_get_3d_backend</span>
 <span class="w">    </span><span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
 <span class="gr">RuntimeError</span>: <span class="n">Could not load any valid 3D backend</span>
 <span class="x">pyvistaqt: libEGL.so.1: cannot open shared object file: No such file or directory</span>
@@ -473,16 +473,16 @@ position.</p>
 <h2>Estimating the head position<a class="headerlink" href="#estimating-the-head-position" title="Link to this heading">🔗</a></h2>
 <p>In <a class="reference external" href="https://mne.tools/stable/index.html">MNE-Python</a>, the head position is estimated through 3 steps:</p>
 <ul class="simple">
-<li><p>Estimate the cHPI amplitudes with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_chpi_amplitudes.html#mne.chpi.compute_chpi_amplitudes" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_chpi_amplitudes()</span></code></a></p></li>
-<li><p>Estimate the cHPI positions with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_chpi_locs.html#mne.chpi.compute_chpi_locs" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_chpi_locs()</span></code></a></p></li>
-<li><p>Estimate the head position with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_head_pos.html#mne.chpi.compute_head_pos" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_head_pos()</span></code></a></p></li>
+<li><p>Estimate the cHPI amplitudes with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_chpi_amplitudes.html#mne.chpi.compute_chpi_amplitudes" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_chpi_amplitudes()</span></code></a></p></li>
+<li><p>Estimate the cHPI positions with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_chpi_locs.html#mne.chpi.compute_chpi_locs" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_chpi_locs()</span></code></a></p></li>
+<li><p>Estimate the head position with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_head_pos.html#mne.chpi.compute_head_pos" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_head_pos()</span></code></a></p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The function <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_head_pos.html#mne.chpi.compute_head_pos" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_head_pos()</span></code></a> returns an array of shape
+<p>The function <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.compute_head_pos.html#mne.chpi.compute_head_pos" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.compute_head_pos()</span></code></a> returns an array of shape
 <code class="docutils literal notranslate"><span class="pre">(n_pos,</span> <span class="pre">10)</span></code> containing the translations as <code class="docutils literal notranslate"><span class="pre">(x,</span> <span class="pre">y,</span> <span class="pre">z)</span></code> and the rotations as
 quaternions <code class="docutils literal notranslate"><span class="pre">(q1,</span> <span class="pre">q2,</span> <span class="pre">q3)</span></code>. The translations and rotations can be converted to
-translation and rotation matrixes with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.head_pos_to_trans_rot_t.html#mne.chpi.head_pos_to_trans_rot_t" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.head_pos_to_trans_rot_t()</span></code></a>.</p>
+translation and rotation matrixes with <a class="reference external" href="https://mne.tools/stable/generated/mne.chpi.head_pos_to_trans_rot_t.html#mne.chpi.head_pos_to_trans_rot_t" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.chpi.head_pos_to_trans_rot_t()</span></code></a>.</p>
 </div>
 <div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">chpi_amplitudes</span> <span class="o">=</span> <span class="n">compute_chpi_amplitudes</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
 <span class="n">chpi_locs</span> <span class="o">=</span> <span class="n">compute_chpi_locs</span><span class="p">(</span><span class="n">raw</span><span class="o">.</span><span class="n">info</span><span class="p">,</span> <span class="n">chpi_amplitudes</span><span class="p">)</span>
@@ -490,7 +490,7 @@ translation and rotation matrixes with <a class="reference external" href="https
 </pre></div>
 </div>
 <p>The estimated head position can be plotted in function of time with
-<a class="reference external" href="https://mne.tools/stable/generated/mne.viz.plot_head_positions.html#mne.viz.plot_head_positions" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.viz.plot_head_positions()</span></code></a>.</p>
+<a class="reference external" href="https://mne.tools/stable/generated/mne.viz.plot_head_positions.html#mne.viz.plot_head_positions" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.viz.plot_head_positions()</span></code></a>.</p>
 <div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">plot_head_positions</span><span class="p">(</span><span class="n">head_pos</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;traces&quot;</span><span class="p">)</span>
 <span class="n">plot_head_positions</span><span class="p">(</span><span class="n">head_pos</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;field&quot;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -501,7 +501,7 @@ translation and rotation matrixes with <a class="reference external" href="https
 <h2>Compensate head movements<a class="headerlink" href="#compensate-head-movements" title="Link to this heading">🔗</a></h2>
 <p>Now that the head position at different timepoints, this information can be used to
 compensate for the head movements during the recording. The function
-<a class="reference external" href="https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne.preprocessing.maxwell_filter" title="(in MNE v1.10)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.preprocessing.maxwell_filter()</span></code></a> uses the returned head positions in the
+<a class="reference external" href="https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne.preprocessing.maxwell_filter" title="(in MNE v1.11)"><code class="xref py py-func docutils literal notranslate"><span class="pre">mne.preprocessing.maxwell_filter()</span></code></a> uses the returned head positions in the
 argument <code class="docutils literal notranslate"><span class="pre">head_pos</span></code> to apply the compensation and estimate the signal at every
 sensor position as if the head was still, i.e., in the position measured by the
 initial HPI measurement.</p>
@@ -566,8 +566,8 @@ space or to bring back a tilted head to a more upright position.</p>
 </aside>
 </aside>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 16.492 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  744 MB</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 21.484 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  748 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-generated-tutorials-megin-30-chpi-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/e725abbb584414f7a00f0c97b837946c/30_cHPI.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">30_cHPI.ipynb</span></code></a></p>

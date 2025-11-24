@@ -166,9 +166,9 @@ sampled signal at a sampling frequency of 1 kHz.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 2.603 seconds)
+   **Total running time of the script:** (0 minutes 2.813 seconds)
 
-**Estimated memory usage:**  195 MB
+**Estimated memory usage:**  197 MB
 
 
 .. _sphx_glr_download_generated_tutorials_stimulation_10_proxy_audio_measure.py:
