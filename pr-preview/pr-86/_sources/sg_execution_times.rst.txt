@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:40.025** total execution time for 6 files **from all galleries**:
+**00:34.331** total execution time for 6 files **from all galleries**:
 
 .. container::
 
@@ -33,20 +33,20 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_generated_tutorials_megin_00_signal_space_projection.py` (``../tutorials/megin/00_signal_space_projection.py``)
-     - 00:20.640
-     - 1161.8
+     - 00:15.719
+     - 1161.6
    * - :ref:`sphx_glr_generated_tutorials_megin_30_cHPI.py` (``../tutorials/megin/30_cHPI.py``)
-     - 00:11.863
-     - 752.4
+     - 00:11.417
+     - 752.0
    * - :ref:`sphx_glr_generated_tutorials_megin_10_sensor_positions.py` (``../tutorials/megin/10_sensor_positions.py``)
-     - 00:03.054
-     - 604.2
+     - 00:02.908
+     - 603.9
    * - :ref:`sphx_glr_generated_tutorials_stimulation_10_proxy_audio_measure.py` (``../tutorials/stimulation/10_proxy_audio_measure.py``)
-     - 00:02.721
-     - 197.2
+     - 00:02.605
+     - 196.9
    * - :ref:`sphx_glr_generated_tutorials_megin_20_rename_EEG_channels.py` (``../tutorials/megin/20_rename_EEG_channels.py``)
-     - 00:01.746
-     - 193.2
+     - 00:01.682
+     - 193.0
    * - :ref:`sphx_glr_generated_tutorials_stimulation_00_precise_audio.py` (``../tutorials/stimulation/00_precise_audio.py``)
      - 00:00.000
      - 0.0
