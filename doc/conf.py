@@ -20,7 +20,7 @@ import meg_wiki
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "meg-wiki"
-author = "MEEG-BCI facility"
+author = "neuro @campusbiotech"
 copyright = f"{date.today().year}, {author}"  # noqa: A001
 release = meg_wiki.__version__
 package = meg_wiki.__name__
@@ -76,7 +76,7 @@ suppress_warnings = ["config.cache"]
 html_css_files = [
     "css/style.css",
 ]
-html_favicon = "_static/icons/neuro@cb_icon_only.svg"
+html_favicon = "_static/icons/favicon_neuro.png"
 html_logo = "_static/icons/neuro@cb_v1.2.svg"
 html_permalinks_icon = "🔗"
 html_show_sphinx = False
