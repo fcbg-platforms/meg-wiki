@@ -40,7 +40,7 @@ Screen
 ------
 
 The screen is position at a fixed ``~1.2m`` distance from the eyes of the subject.
-The screen measures ``~30.5 cm x 55.0 cm``, thus the diagonal is ``~62.9 cm``.
+The screen measures ``~35 cm x 61.0 cm``, thus the diagonal is ``~70.3 cm``.
 
 Settings
 --------
