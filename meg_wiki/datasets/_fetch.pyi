@@ -24,7 +24,7 @@ def fetch_dataset(path: Path, base_url: str, registry: str | Path) -> Path:
         Absolute path to the local clone of the dataset.
     """
 
-def _walk(path: Path) -> Generator[Path, None, None]:
+def _walk(path: Path) -> Generator[Path]:
     """Walk recursively through a directory tree and yield the existing files.
 
     Parameters
