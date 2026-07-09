@@ -46,7 +46,7 @@ def _write_proj(
             fid,
             FIFF.FIFF_PROJ_ITEM_CH_NAME_LIST,
             proj["data"]["col_names"],
-            "col_names",
+            name="col_names",
         )
         write_string(fid, FIFF.FIFF_NAME, proj["desc"])
         write_int(fid, FIFF.FIFF_PROJ_ITEM_KIND, proj["kind"])
