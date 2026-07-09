@@ -411,23 +411,28 @@ the subject’s individual MRI should be used.</p>
 </pre></div>
 </div>
 <div class="sphx-glr-script-out highlight-pytb notranslate"><div class="highlight"><pre><span></span><span class="gt">Traceback (most recent call last):</span>
-  File <span class="nb">&quot;/home/runner/work/meg-wiki/meg-wiki/tutorials/megin/30_cHPI.py&quot;</span>, line <span class="m">78</span>, in <span class="n">&lt;module&gt;</span>
-<span class="w">    </span><span class="n">subjects_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">fetch_fsaverage</span><span class="p">())</span><span class="o">.</span><span class="n">parent</span>
-<span class="w">                        </span><span class="pm">^^^^^^^^^^^^^^^^^</span>
-  File <span class="nb">&quot;&lt;decorator-gen-432&gt;&quot;</span>, line <span class="m">12</span>, in <span class="n">fetch_fsaverage</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/datasets/_fsaverage/base.py&quot;</span>, line <span class="m">73</span>, in <span class="n">fetch_fsaverage</span>
-<span class="w">    </span><span class="n">_manifest_check_download</span><span class="p">(</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/datasets/utils.py&quot;</span>, line <span class="m">813</span>, in <span class="n">_manifest_check_download</span>
-<span class="w">    </span><span class="n">pooch</span><span class="o">.</span><span class="n">retrieve</span><span class="p">(</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pooch/core.py&quot;</span>, line <span class="m">242</span>, in <span class="n">retrieve</span>
-<span class="w">    </span><span class="n">stream_download</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">full_path</span><span class="p">,</span> <span class="n">known_hash</span><span class="p">,</span> <span class="n">downloader</span><span class="p">,</span> <span class="n">pooch</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pooch/core.py&quot;</span>, line <span class="m">823</span>, in <span class="n">stream_download</span>
-<span class="w">    </span><span class="n">downloader</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">tmp</span><span class="p">,</span> <span class="n">pooch</span><span class="p">)</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pooch/downloaders.py&quot;</span>, line <span class="m">231</span>, in <span class="n">__call__</span>
-<span class="w">    </span><span class="n">response</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
-  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py&quot;</span>, line <span class="m">1167</span>, in <span class="n">raise_for_status</span>
-<span class="w">    </span><span class="k">raise</span> <span class="n">HTTPError</span><span class="p">(</span><span class="n">http_error_msg</span><span class="p">,</span> <span class="n">response</span><span class="o">=</span><span class="bp">self</span><span class="p">)</span>
-<span class="gr">requests.exceptions.HTTPError</span>: <span class="n">429 Client Error: Too Many Requests for url: https://files.osf.io/v1/resources/rxvq7/providers/osfstorage/5cbdba4ef2be3c0019091890?version=2</span>
+  File <span class="nb">&quot;/home/runner/work/meg-wiki/meg-wiki/tutorials/megin/30_cHPI.py&quot;</span>, line <span class="m">79</span>, in <span class="n">&lt;module&gt;</span>
+<span class="w">    </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plot_alignment</span><span class="p">(</span>
+<span class="w">          </span><span class="pm">^^^^^^^^^^^^^^^</span>
+  File <span class="nb">&quot;&lt;decorator-gen-187&gt;&quot;</span>, line <span class="m">12</span>, in <span class="n">plot_alignment</span>
+  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/viz/_3d.py&quot;</span>, line <span class="m">863</span>, in <span class="n">plot_alignment</span>
+<span class="w">    </span><span class="n">renderer</span> <span class="o">=</span> <span class="n">_get_renderer</span><span class="p">(</span>
+<span class="w">               </span><span class="pm">^^^^^^^^^^^^^^</span>
+  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py&quot;</span>, line <span class="m">52</span>, in <span class="n">_get_renderer</span>
+<span class="w">    </span><span class="n">_get_3d_backend</span><span class="p">()</span>
+  File <span class="nb">&quot;/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py&quot;</span>, line <span class="m">181</span>, in <span class="n">_get_3d_backend</span>
+<span class="w">    </span><span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+<span class="gr">RuntimeError</span>: <span class="n">Could not load any valid 3D backend</span>
+<span class="x">pyvistaqt: libEGL.so.1: cannot open shared object file: No such file or directory</span>
+<span class="x">notebook: No module named &#39;ipyevents&#39;</span>
+
+<span class="x"> install pyvistaqt, using pip or conda:</span>
+<span class="x">&#39;pip install pyvistaqt&#39;</span>
+<span class="x">&#39;conda install -c conda-forge pyvistaqt&#39;</span>
+
+<span class="x"> or install ipywidgets, if using a notebook backend</span>
+<span class="x">&#39;pip install ipywidgets&#39;</span>
+<span class="x">&#39;conda install -c conda-forge ipywidgets&#39;</span>
 </pre></div>
 </div>
 </section>
@@ -561,8 +566,8 @@ space or to bring back a tilted head to a more upright position.</p>
 </aside>
 </aside>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 1.276 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  714 MB</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 23.941 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  715 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-generated-tutorials-megin-30-chpi-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/e725abbb584414f7a00f0c97b837946c/30_cHPI.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">30_cHPI.ipynb</span></code></a></p>

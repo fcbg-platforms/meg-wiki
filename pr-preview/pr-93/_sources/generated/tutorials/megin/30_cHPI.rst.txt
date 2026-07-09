@@ -154,23 +154,28 @@ The initial head position can be visualized within the sensor helmet with
 .. code-block:: pytb
 
     Traceback (most recent call last):
-      File "/home/runner/work/meg-wiki/meg-wiki/tutorials/megin/30_cHPI.py", line 78, in <module>
-        subjects_dir = Path(fetch_fsaverage()).parent
-                            ^^^^^^^^^^^^^^^^^
-      File "<decorator-gen-432>", line 12, in fetch_fsaverage
-      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/datasets/_fsaverage/base.py", line 73, in fetch_fsaverage
-        _manifest_check_download(
-      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/datasets/utils.py", line 813, in _manifest_check_download
-        pooch.retrieve(
-      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pooch/core.py", line 242, in retrieve
-        stream_download(url, full_path, known_hash, downloader, pooch=None)
-      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pooch/core.py", line 823, in stream_download
-        downloader(url, tmp, pooch)
-      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pooch/downloaders.py", line 231, in __call__
-        response.raise_for_status()
-      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
-        raise HTTPError(http_error_msg, response=self)
-    requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://files.osf.io/v1/resources/rxvq7/providers/osfstorage/5cbdba4ef2be3c0019091890?version=2
+      File "/home/runner/work/meg-wiki/meg-wiki/tutorials/megin/30_cHPI.py", line 79, in <module>
+        fig = plot_alignment(
+              ^^^^^^^^^^^^^^^
+      File "<decorator-gen-187>", line 12, in plot_alignment
+      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/viz/_3d.py", line 863, in plot_alignment
+        renderer = _get_renderer(
+                   ^^^^^^^^^^^^^^
+      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 52, in _get_renderer
+        _get_3d_backend()
+      File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/mne/viz/backends/renderer.py", line 181, in _get_3d_backend
+        raise RuntimeError(
+    RuntimeError: Could not load any valid 3D backend
+    pyvistaqt: libEGL.so.1: cannot open shared object file: No such file or directory
+    notebook: No module named 'ipyevents'
+
+     install pyvistaqt, using pip or conda:
+    'pip install pyvistaqt'
+    'conda install -c conda-forge pyvistaqt'
+
+     or install ipywidgets, if using a notebook backend
+    'pip install ipywidgets'
+    'conda install -c conda-forge ipywidgets'
 
 
 
@@ -352,9 +357,9 @@ References
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 1.276 seconds)
+   **Total running time of the script:** (0 minutes 23.941 seconds)
 
-**Estimated memory usage:**  714 MB
+**Estimated memory usage:**  715 MB
 
 
 .. _sphx_glr_download_generated_tutorials_megin_30_cHPI.py:
