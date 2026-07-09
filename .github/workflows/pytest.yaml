@@ -25,7 +25,7 @@ jobs:
         shell: bash
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Setup Python ${{ matrix.python-version }}
         uses: actions/setup-python@v6
         with:
@@ -41,7 +41,7 @@ jobs:
           curl https://raw.githubusercontent.com/fcbg-platforms/meg-wiki-datasets/main/version.txt -o meg_wiki_datasets_version.txt
       - name: Cache dataset
         id: cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           key: meg-wiki-${{ runner.os }}-${{ hashFiles('meg_wiki_datasets_version.txt') }}
           path: ~/meg-wiki_data
@@ -53,7 +53,7 @@ jobs:
       - name: Run pytest
         run: pytest meg_wiki --cov=meg_wiki --cov-report=xml --cov-config=pyproject.toml
       - name: Upload to codecov
-        uses: codecov/codecov-action@v6
+        uses: codecov/codecov-action@v7
         with:
           files: ./coverage.xml
           flags: unittests  # optional
@@ -74,7 +74,7 @@ jobs:
         shell: bash
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Setup Python ${{ matrix.python-version }}
         uses: actions/setup-python@v6
         with:
@@ -95,7 +95,7 @@ jobs:
           curl https://raw.githubusercontent.com/fcbg-platforms/meg-wiki-datasets/main/version.txt -o meg_wiki_datasets_version.txt
       - name: Cache dataset
         id: cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           key: meg-wiki-${{ runner.os }}-${{ hashFiles('meg_wiki_datasets_version.txt') }}
           path: ~/meg-wiki_data
@@ -107,7 +107,7 @@ jobs:
       - name: Run pytest
         run: pytest meg_wiki --cov=meg_wiki --cov-report=xml --cov-config=pyproject.toml
       - name: Upload to codecov
-        uses: codecov/codecov-action@v6
+        uses: codecov/codecov-action@v7
         with:
           files: ./coverage.xml
           flags: unittests  # optional
