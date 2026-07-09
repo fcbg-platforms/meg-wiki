@@ -214,9 +214,9 @@ in device coordinates.
 
 
 
-    <tr class="mne-repr-section-header general-c2a44fe1-e57c-48b6-92d4-4ebe13eee3f7"
+    <tr class="mne-repr-section-header general-d323b2f3-60dc-45f7-ad88-fca29441b3df"
          title="Hide section" 
-        onclick="toggleVisibility('general-c2a44fe1-e57c-48b6-92d4-4ebe13eee3f7')">
+        onclick="toggleVisibility('general-d323b2f3-60dc-45f7-ad88-fca29441b3df')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -228,26 +228,26 @@ in device coordinates.
     </tr>
 
 
-    <tr class="repr-element general-c2a44fe1-e57c-48b6-92d4-4ebe13eee3f7 ">
+    <tr class="repr-element general-d323b2f3-60dc-45f7-ad88-fca29441b3df ">
         <td class="mne-repr-section-toggle"></td>
         <td>MNE object type</td>
         <td>Info</td>
     </tr>
-    <tr class="repr-element general-c2a44fe1-e57c-48b6-92d4-4ebe13eee3f7 ">
+    <tr class="repr-element general-d323b2f3-60dc-45f7-ad88-fca29441b3df ">
         <td class="mne-repr-section-toggle"></td>
         <td>Measurement date</td>
     
         <td>2000-01-01 at 00:00:00 UTC</td>
     
     </tr>
-    <tr class="repr-element general-c2a44fe1-e57c-48b6-92d4-4ebe13eee3f7 ">
+    <tr class="repr-element general-d323b2f3-60dc-45f7-ad88-fca29441b3df ">
         <td class="mne-repr-section-toggle"></td>
         <td>Participant</td>
     
     
     
     </tr>
-    <tr class="repr-element general-c2a44fe1-e57c-48b6-92d4-4ebe13eee3f7 ">
+    <tr class="repr-element general-d323b2f3-60dc-45f7-ad88-fca29441b3df ">
         <td class="mne-repr-section-toggle"></td>
         <td>Experimenter</td>
     
@@ -262,9 +262,9 @@ in device coordinates.
 
 
 
-    <tr class="mne-repr-section-header acquisition-f68dcfc3-9814-423f-baef-67e36a085b5b"
+    <tr class="mne-repr-section-header acquisition-b475530f-2c49-4e90-b55b-8e374180ef33"
          title="Hide section" 
-        onclick="toggleVisibility('acquisition-f68dcfc3-9814-423f-baef-67e36a085b5b')">
+        onclick="toggleVisibility('acquisition-b475530f-2c49-4e90-b55b-8e374180ef33')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -283,7 +283,7 @@ in device coordinates.
 
 
 
-    <tr class="repr-element acquisition-f68dcfc3-9814-423f-baef-67e36a085b5b ">
+    <tr class="repr-element acquisition-b475530f-2c49-4e90-b55b-8e374180ef33 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Sampling frequency</td>
         <td>1000.00 Hz</td>
@@ -299,9 +299,9 @@ in device coordinates.
 
 
 
-    <tr class="mne-repr-section-header channels-cdf714bc-b883-4c76-ab43-65a378bc16ec"
+    <tr class="mne-repr-section-header channels-fc4b5b0b-b7fe-4155-91eb-781bb8d300db"
          title="Hide section" 
-        onclick="toggleVisibility('channels-cdf714bc-b883-4c76-ab43-65a378bc16ec')">
+        onclick="toggleVisibility('channels-fc4b5b0b-b7fe-4155-91eb-781bb8d300db')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -314,7 +314,7 @@ in device coordinates.
 
 
     
-    <tr class="repr-element channels-cdf714bc-b883-4c76-ab43-65a378bc16ec ">
+    <tr class="repr-element channels-fc4b5b0b-b7fe-4155-91eb-781bb8d300db ">
         <td class="mne-repr-section-toggle"></td>
         <td>Magnetometers</td>
         <td>
@@ -327,7 +327,7 @@ in device coordinates.
     </tr>
 
     
-    <tr class="repr-element channels-cdf714bc-b883-4c76-ab43-65a378bc16ec ">
+    <tr class="repr-element channels-fc4b5b0b-b7fe-4155-91eb-781bb8d300db ">
         <td class="mne-repr-section-toggle"></td>
         <td>Gradiometers</td>
         <td>
@@ -340,7 +340,7 @@ in device coordinates.
     </tr>
 
 
-    <tr class="repr-element channels-cdf714bc-b883-4c76-ab43-65a378bc16ec ">
+    <tr class="repr-element channels-fc4b5b0b-b7fe-4155-91eb-781bb8d300db ">
         <td class="mne-repr-section-toggle"></td>
         <td>Head & sensor digitization</td>
     
@@ -355,9 +355,9 @@ in device coordinates.
 
 
 
-    <tr class="mne-repr-section-header filters-a14db848-0165-40e9-88b1-3d54d66e4ace"
+    <tr class="mne-repr-section-header filters-53f85584-6495-45aa-81a2-fe30875a78be"
          title="Hide section" 
-        onclick="toggleVisibility('filters-a14db848-0165-40e9-88b1-3d54d66e4ace')">
+        onclick="toggleVisibility('filters-53f85584-6495-45aa-81a2-fe30875a78be')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -369,21 +369,21 @@ in device coordinates.
     </tr>
 
 
-    <tr class="repr-element filters-a14db848-0165-40e9-88b1-3d54d66e4ace ">
+    <tr class="repr-element filters-53f85584-6495-45aa-81a2-fe30875a78be ">
         <td class="mne-repr-section-toggle"></td>
         <td>Highpass</td>
         <td>0.10 Hz</td>
     </tr>
 
 
-    <tr class="repr-element filters-a14db848-0165-40e9-88b1-3d54d66e4ace ">
+    <tr class="repr-element filters-53f85584-6495-45aa-81a2-fe30875a78be ">
         <td class="mne-repr-section-toggle"></td>
         <td>Lowpass</td>
         <td>330.00 Hz</td>
     </tr>
 
 
-    <tr class="repr-element filters-a14db848-0165-40e9-88b1-3d54d66e4ace ">
+    <tr class="repr-element filters-53f85584-6495-45aa-81a2-fe30875a78be ">
         <td class="mne-repr-section-toggle"></td>
         <td>Projections</td>
         <td>
@@ -688,9 +688,9 @@ oriented along the lines of longitude (vertical sensitivity along the equator) i
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 3.486 seconds)
+   **Total running time of the script:** (0 minutes 3.687 seconds)
 
-**Estimated memory usage:**  560 MB
+**Estimated memory usage:**  567 MB
 
 
 .. _sphx_glr_download_generated_tutorials_megin_10_sensor_positions.py:
