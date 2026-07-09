@@ -208,9 +208,9 @@ a standard 10/05 naming. The EEG channel layouts are available in
 
 
 
-    <tr class="mne-repr-section-header general-1384d1f4-2787-47c7-9fa5-4d56bdc3e189"
+    <tr class="mne-repr-section-header general-994da98d-1f82-42c8-8e24-c9da42b28de4"
          title="Hide section" 
-        onclick="toggleVisibility('general-1384d1f4-2787-47c7-9fa5-4d56bdc3e189')">
+        onclick="toggleVisibility('general-994da98d-1f82-42c8-8e24-c9da42b28de4')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -222,26 +222,26 @@ a standard 10/05 naming. The EEG channel layouts are available in
     </tr>
 
 
-    <tr class="repr-element general-1384d1f4-2787-47c7-9fa5-4d56bdc3e189 ">
+    <tr class="repr-element general-994da98d-1f82-42c8-8e24-c9da42b28de4 ">
         <td class="mne-repr-section-toggle"></td>
         <td>MNE object type</td>
         <td>Info</td>
     </tr>
-    <tr class="repr-element general-1384d1f4-2787-47c7-9fa5-4d56bdc3e189 ">
+    <tr class="repr-element general-994da98d-1f82-42c8-8e24-c9da42b28de4 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Measurement date</td>
     
         <td>2000-01-01 at 00:00:00 UTC</td>
     
     </tr>
-    <tr class="repr-element general-1384d1f4-2787-47c7-9fa5-4d56bdc3e189 ">
+    <tr class="repr-element general-994da98d-1f82-42c8-8e24-c9da42b28de4 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Participant</td>
     
     
     
     </tr>
-    <tr class="repr-element general-1384d1f4-2787-47c7-9fa5-4d56bdc3e189 ">
+    <tr class="repr-element general-994da98d-1f82-42c8-8e24-c9da42b28de4 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Experimenter</td>
     
@@ -256,9 +256,9 @@ a standard 10/05 naming. The EEG channel layouts are available in
 
 
 
-    <tr class="mne-repr-section-header acquisition-93e5f721-3b5c-4195-8158-48082a7f4731"
+    <tr class="mne-repr-section-header acquisition-22d94a5e-03b5-4931-8a82-fa2d1aec6545"
          title="Hide section" 
-        onclick="toggleVisibility('acquisition-93e5f721-3b5c-4195-8158-48082a7f4731')">
+        onclick="toggleVisibility('acquisition-22d94a5e-03b5-4931-8a82-fa2d1aec6545')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -277,7 +277,7 @@ a standard 10/05 naming. The EEG channel layouts are available in
 
 
 
-    <tr class="repr-element acquisition-93e5f721-3b5c-4195-8158-48082a7f4731 ">
+    <tr class="repr-element acquisition-22d94a5e-03b5-4931-8a82-fa2d1aec6545 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Sampling frequency</td>
         <td>1000.00 Hz</td>
@@ -293,9 +293,9 @@ a standard 10/05 naming. The EEG channel layouts are available in
 
 
 
-    <tr class="mne-repr-section-header channels-d4bda672-64bd-4d72-81cc-bd8a25d91771"
+    <tr class="mne-repr-section-header channels-161b4c2c-f2f1-4179-aae8-90d4d2e8a353"
          title="Hide section" 
-        onclick="toggleVisibility('channels-d4bda672-64bd-4d72-81cc-bd8a25d91771')">
+        onclick="toggleVisibility('channels-161b4c2c-f2f1-4179-aae8-90d4d2e8a353')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -308,7 +308,7 @@ a standard 10/05 naming. The EEG channel layouts are available in
 
 
     
-    <tr class="repr-element channels-d4bda672-64bd-4d72-81cc-bd8a25d91771 ">
+    <tr class="repr-element channels-161b4c2c-f2f1-4179-aae8-90d4d2e8a353 ">
         <td class="mne-repr-section-toggle"></td>
         <td>EEG</td>
         <td>
@@ -321,7 +321,7 @@ a standard 10/05 naming. The EEG channel layouts are available in
     </tr>
 
 
-    <tr class="repr-element channels-d4bda672-64bd-4d72-81cc-bd8a25d91771 ">
+    <tr class="repr-element channels-161b4c2c-f2f1-4179-aae8-90d4d2e8a353 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Head & sensor digitization</td>
     
@@ -336,9 +336,9 @@ a standard 10/05 naming. The EEG channel layouts are available in
 
 
 
-    <tr class="mne-repr-section-header filters-31dbd050-627f-4b07-bd7b-3d9f5d25f289"
+    <tr class="mne-repr-section-header filters-936c84eb-8285-4b56-9364-120b2913f5ea"
          title="Hide section" 
-        onclick="toggleVisibility('filters-31dbd050-627f-4b07-bd7b-3d9f5d25f289')">
+        onclick="toggleVisibility('filters-936c84eb-8285-4b56-9364-120b2913f5ea')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -350,14 +350,14 @@ a standard 10/05 naming. The EEG channel layouts are available in
     </tr>
 
 
-    <tr class="repr-element filters-31dbd050-627f-4b07-bd7b-3d9f5d25f289 ">
+    <tr class="repr-element filters-936c84eb-8285-4b56-9364-120b2913f5ea ">
         <td class="mne-repr-section-toggle"></td>
         <td>Highpass</td>
         <td>0.10 Hz</td>
     </tr>
 
 
-    <tr class="repr-element filters-31dbd050-627f-4b07-bd7b-3d9f5d25f289 ">
+    <tr class="repr-element filters-936c84eb-8285-4b56-9364-120b2913f5ea ">
         <td class="mne-repr-section-toggle"></td>
         <td>Lowpass</td>
         <td>330.00 Hz</td>
@@ -407,7 +407,7 @@ visualize inn their true digitized location through the
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 1.734 seconds)
+   **Total running time of the script:** (0 minutes 1.890 seconds)
 
 **Estimated memory usage:**  166 MB
 

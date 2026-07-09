@@ -323,9 +323,9 @@ location and orientation. Those information are stored in every raw recording.
 
 
 
-    <tr class="mne-repr-section-header general-7f74eab5-b00f-4b97-832b-ce747cecc797"
+    <tr class="mne-repr-section-header general-6f6145f4-cf13-4102-8ff9-635e99481cc1"
          title="Hide section" 
-        onclick="toggleVisibility('general-7f74eab5-b00f-4b97-832b-ce747cecc797')">
+        onclick="toggleVisibility('general-6f6145f4-cf13-4102-8ff9-635e99481cc1')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -337,26 +337,26 @@ location and orientation. Those information are stored in every raw recording.
     </tr>
 
 
-    <tr class="repr-element general-7f74eab5-b00f-4b97-832b-ce747cecc797 ">
+    <tr class="repr-element general-6f6145f4-cf13-4102-8ff9-635e99481cc1 ">
         <td class="mne-repr-section-toggle"></td>
         <td>MNE object type</td>
         <td>Info</td>
     </tr>
-    <tr class="repr-element general-7f74eab5-b00f-4b97-832b-ce747cecc797 ">
+    <tr class="repr-element general-6f6145f4-cf13-4102-8ff9-635e99481cc1 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Measurement date</td>
     
         <td>2000-01-01 at 00:00:00 UTC</td>
     
     </tr>
-    <tr class="repr-element general-7f74eab5-b00f-4b97-832b-ce747cecc797 ">
+    <tr class="repr-element general-6f6145f4-cf13-4102-8ff9-635e99481cc1 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Participant</td>
     
     
     
     </tr>
-    <tr class="repr-element general-7f74eab5-b00f-4b97-832b-ce747cecc797 ">
+    <tr class="repr-element general-6f6145f4-cf13-4102-8ff9-635e99481cc1 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Experimenter</td>
     
@@ -371,9 +371,9 @@ location and orientation. Those information are stored in every raw recording.
 
 
 
-    <tr class="mne-repr-section-header acquisition-7a2bb6b5-5ca0-4178-b78d-7db2b3cf57cc"
+    <tr class="mne-repr-section-header acquisition-0a08fe99-50c1-41a3-a4f5-df88c96468fb"
          title="Hide section" 
-        onclick="toggleVisibility('acquisition-7a2bb6b5-5ca0-4178-b78d-7db2b3cf57cc')">
+        onclick="toggleVisibility('acquisition-0a08fe99-50c1-41a3-a4f5-df88c96468fb')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -392,7 +392,7 @@ location and orientation. Those information are stored in every raw recording.
 
 
 
-    <tr class="repr-element acquisition-7a2bb6b5-5ca0-4178-b78d-7db2b3cf57cc ">
+    <tr class="repr-element acquisition-0a08fe99-50c1-41a3-a4f5-df88c96468fb ">
         <td class="mne-repr-section-toggle"></td>
         <td>Sampling frequency</td>
         <td>1000.00 Hz</td>
@@ -408,9 +408,9 @@ location and orientation. Those information are stored in every raw recording.
 
 
 
-    <tr class="mne-repr-section-header channels-a3fbdca5-7549-4c9c-a063-8cd56e5b9a4c"
+    <tr class="mne-repr-section-header channels-37dc72ae-01c2-4f36-aad4-72019ff2bbec"
          title="Hide section" 
-        onclick="toggleVisibility('channels-a3fbdca5-7549-4c9c-a063-8cd56e5b9a4c')">
+        onclick="toggleVisibility('channels-37dc72ae-01c2-4f36-aad4-72019ff2bbec')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -423,7 +423,7 @@ location and orientation. Those information are stored in every raw recording.
 
 
     
-    <tr class="repr-element channels-a3fbdca5-7549-4c9c-a063-8cd56e5b9a4c ">
+    <tr class="repr-element channels-37dc72ae-01c2-4f36-aad4-72019ff2bbec ">
         <td class="mne-repr-section-toggle"></td>
         <td>Magnetometers</td>
         <td>
@@ -436,7 +436,7 @@ location and orientation. Those information are stored in every raw recording.
     </tr>
 
     
-    <tr class="repr-element channels-a3fbdca5-7549-4c9c-a063-8cd56e5b9a4c ">
+    <tr class="repr-element channels-37dc72ae-01c2-4f36-aad4-72019ff2bbec ">
         <td class="mne-repr-section-toggle"></td>
         <td>Gradiometers</td>
         <td>
@@ -449,7 +449,7 @@ location and orientation. Those information are stored in every raw recording.
     </tr>
 
 
-    <tr class="repr-element channels-a3fbdca5-7549-4c9c-a063-8cd56e5b9a4c ">
+    <tr class="repr-element channels-37dc72ae-01c2-4f36-aad4-72019ff2bbec ">
         <td class="mne-repr-section-toggle"></td>
         <td>Head & sensor digitization</td>
     
@@ -464,9 +464,9 @@ location and orientation. Those information are stored in every raw recording.
 
 
 
-    <tr class="mne-repr-section-header filters-ecb16d82-2beb-4438-a5bd-089fa9ee6777"
+    <tr class="mne-repr-section-header filters-91f5c355-9749-4407-80e4-0f9551abdf30"
          title="Hide section" 
-        onclick="toggleVisibility('filters-ecb16d82-2beb-4438-a5bd-089fa9ee6777')">
+        onclick="toggleVisibility('filters-91f5c355-9749-4407-80e4-0f9551abdf30')">
         <th class="mne-repr-section-toggle">
             <button >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -478,21 +478,21 @@ location and orientation. Those information are stored in every raw recording.
     </tr>
 
 
-    <tr class="repr-element filters-ecb16d82-2beb-4438-a5bd-089fa9ee6777 ">
+    <tr class="repr-element filters-91f5c355-9749-4407-80e4-0f9551abdf30 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Highpass</td>
         <td>0.10 Hz</td>
     </tr>
 
 
-    <tr class="repr-element filters-ecb16d82-2beb-4438-a5bd-089fa9ee6777 ">
+    <tr class="repr-element filters-91f5c355-9749-4407-80e4-0f9551abdf30 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Lowpass</td>
         <td>330.00 Hz</td>
     </tr>
 
 
-    <tr class="repr-element filters-ecb16d82-2beb-4438-a5bd-089fa9ee6777 ">
+    <tr class="repr-element filters-91f5c355-9749-4407-80e4-0f9551abdf30 ">
         <td class="mne-repr-section-toggle"></td>
         <td>Projections</td>
         <td>
@@ -720,9 +720,9 @@ References
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 27.116 seconds)
+   **Total running time of the script:** (0 minutes 21.799 seconds)
 
-**Estimated memory usage:**  1135 MB
+**Estimated memory usage:**  1137 MB
 
 
 .. _sphx_glr_download_generated_tutorials_megin_00_signal_space_projection.py:
