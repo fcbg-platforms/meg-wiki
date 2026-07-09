@@ -20,6 +20,7 @@ if TYPE_CHECKING:
 directory = sample.data_path() / "eeg-layout"
 montage_name = "colin27_1005" if check_version("mne", "1.13") else "standard_1005"
 
+
 @pytest.mark.parametrize(
     ("n", "func"),
     [(32, load_mapping_32chs), (64, load_mapping_64chs), (128, load_mapping_128chs)],
