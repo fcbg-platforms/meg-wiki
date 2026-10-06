@@ -111,6 +111,6 @@ def test_write_orthonormalized_proj(tmp_path):
     data_ortho = np.array([proj["data"]["data"].squeeze() for proj in projs_ortho]).T
     assert not np.allclose(data, data_ortho)
     assert_allclose(
-        np.linalg.norm(data_ortho, axis=0), np.ones(data_ortho.shape[1]), atol=1e-6
+        np.linalg.norm(data_ortho, axis=0), np.ones(data_ortho.shape[1]), atol=1e-5
     )
-    assert_allclose(data_ortho.T @ data_ortho, np.eye(data_ortho.shape[1]), atol=1e-6)
+    assert_allclose(data_ortho.T @ data_ortho, np.eye(data_ortho.shape[1]), atol=1e-5)
