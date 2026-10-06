@@ -78,7 +78,9 @@ describing the mounting procedure on the desktop.
 
         .. code-block::
 
-            \\fcbgnasc.campusbiotech.ch\fcbgdata
+            \\fcbgnasc.[DOMAIN].ch\fcbgdata
+
+        where ``[DOMAIN]`` is replaced with the appropriate domain, either ``campusbiotech``, ``epfl`` or ``unige``.
 
         .. image:: ./_static/isilon/windows-address.png
             :align: center
@@ -131,7 +133,9 @@ describing the mounting procedure on the desktop.
 
         .. code-block::
 
-            smb://fcbgnasc.epfl.ch/fcbgdata
+            smb://fcbgnasc.[DOMAIN].ch/fcbgdata
+
+        where ``[DOMAIN]`` is replaced with the appropriate domain, either ``campusbiotech``, ``epfl`` or ``unige``.
 
         .. image:: ./_static/isilon/macos-address-dark.png
             :align: center
@@ -179,7 +183,9 @@ describing the mounting procedure on the desktop.
 
         .. code-block::
 
-            smb://fcbgnasc.campusbiotech.ch/fcbgdata
+            smb://fcbgnasc.[DOMAIN].ch/fcbgdata
+        
+        where ``[DOMAIN]`` is replaced with the appropriate domain, either ``campusbiotech``, ``epfl`` or ``unige``.
 
         .. image:: ./_static/isilon/linux-address-dark.png
             :align: center
