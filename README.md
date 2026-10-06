@@ -62,7 +62,8 @@ Additional information can be found on the
 Whenever a change is made to the [meg-wiki-datasets](https://github.com/fcbg-platforms/meg-wiki-datasets),  the `sample-registry.txt` must be updated accordingly:
 
 ```python
-from meg_wiki.datasets.sample import _make_registry 
+from meg_wiki.datasets.sample import _make_registry
+
 _make_registry(r"PATH_TO_meg-wiki-datasets")
 ```
 
